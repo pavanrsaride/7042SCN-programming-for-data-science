@@ -1,0 +1,26 @@
+test_invalid_inputs (test_all_tasks.TestTask1.test_invalid_inputs) ... ok
+test_minimum_and_maximum (test_all_tasks.TestTask1.test_minimum_and_maximum) ... ok
+test_octet_padding (test_all_tasks.TestTask1.test_octet_padding) ... ok
+test_supplied_assertions (test_all_tasks.TestTask1.test_supplied_assertions) ... ok
+test_empty_and_validation (test_all_tasks.TestTask2.test_empty_and_validation) ... ok
+test_evaluator (test_all_tasks.TestTask2.test_evaluator) ... ok
+test_greedy_matches_brute_force_cardinality (test_all_tasks.TestTask2.test_greedy_matches_brute_force_cardinality)
+Check greedy result against ALL subsets in 220 seeded small cases. ... ok
+test_required_answer (test_all_tasks.TestTask2.test_required_answer) ... ok
+test_tie_break_and_no_candidate (test_all_tasks.TestTask2.test_tie_break_and_no_candidate) ... ok
+test_all_die_outcomes_at_every_inventory (test_all_tasks.TestTask3.test_all_die_outcomes_at_every_inventory) ... ok
+test_bad_simulation_inputs (test_all_tasks.TestTask3.test_bad_simulation_inputs) ... ok
+test_empty_repeated_hires (test_all_tasks.TestTask3.test_empty_repeated_hires) ... ok
+test_full_repeated_returns (test_all_tasks.TestTask3.test_full_repeated_returns) ... ok
+test_no_change_and_reproducibility (test_all_tasks.TestTask3.test_no_change_and_reproducibility) ... ok
+test_randomised_stock_invariants (test_all_tasks.TestTask3.test_randomised_stock_invariants) ... ok
+test_randomised_two_station_invariants (test_all_tasks.TestTask3.test_randomised_two_station_invariants) ... ok
+test_stock_exhaustion_and_filling (test_all_tasks.TestTask3.test_stock_exhaustion_and_filling) ... ok
+test_transfer_conservation_and_balance (test_all_tasks.TestTask3.test_transfer_conservation_and_balance) ... ok
+test_dataset_layout (test_all_tasks.TestTask4.test_dataset_layout) ... ok
+test_identical_folds_and_fully_assigned_predictions (test_all_tasks.TestTask4.test_identical_folds_and_fully_assigned_predictions) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests
+
+OK

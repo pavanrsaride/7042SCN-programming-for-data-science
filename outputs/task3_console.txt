@@ -1,0 +1,26 @@
+TASK 3 — REPRODUCIBLE 120-MINUTE SINGLE-STATION SIMULATION
+Parameters: capacity=10, initial=6, minutes=120, seed=42
+Final inventory: 0
+Counters: {'successful_hires': 27, 'successful_returns': 21, 'rejected_hires': 18, 'rejected_returns': 0, 'no_change': 54}
+First ten minute records:
+{'minute': 1, 'die': 6, 'outcome': 'no_change', 'bikes_after': 6}
+{'minute': 2, 'die': 1, 'outcome': 'successful_hires', 'bikes_after': 5}
+{'minute': 3, 'die': 1, 'outcome': 'successful_hires', 'bikes_after': 4}
+{'minute': 4, 'die': 6, 'outcome': 'no_change', 'bikes_after': 4}
+{'minute': 5, 'die': 3, 'outcome': 'successful_returns', 'bikes_after': 5}
+{'minute': 6, 'die': 2, 'outcome': 'successful_hires', 'bikes_after': 4}
+{'minute': 7, 'die': 2, 'outcome': 'successful_hires', 'bikes_after': 3}
+{'minute': 8, 'die': 2, 'outcome': 'successful_hires', 'bikes_after': 2}
+{'minute': 9, 'die': 6, 'outcome': 'no_change', 'bikes_after': 2}
+{'minute': 10, 'die': 1, 'outcome': 'successful_hires', 'bikes_after': 1}
+Invariants: bounds, 120 events, and bike stock conservation PASSED
+
+TASK 3 — CONTROLLED TWO-STATION TRANSFER TEST
+Initial inventories: A=10, B=0; all die rolls are 4 (no customers)
+Vehicle can move at most two bicycles every 30 minutes.
+{'minute': 30, 'from_a': 10, 'from_b': 0, 'moved': 2, 'direction': 'A_to_B', 'to_a': 8, 'to_b': 2}
+{'minute': 60, 'from_a': 8, 'from_b': 2, 'moved': 2, 'direction': 'A_to_B', 'to_a': 6, 'to_b': 4}
+{'minute': 90, 'from_a': 6, 'from_b': 4, 'moved': 1, 'direction': 'A_to_B', 'to_a': 5, 'to_b': 5}
+{'minute': 120, 'from_a': 5, 'from_b': 5, 'moved': 0, 'direction': 'none', 'to_a': 5, 'to_b': 5}
+Final inventories: 5 5
+Two-station conservation invariant PASSED

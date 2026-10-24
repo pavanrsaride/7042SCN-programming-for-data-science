@@ -1,0 +1,76 @@
+text	label
+I have received an offer for a master's course and need information about the student route application	study
+My CAS has been issued but the course start date is close and I am unsure what to submit	study
+Can I extend my permission to finish my university dissertation	study
+I want to switch to a different degree while studying in the UK	study
+What evidence of funds should I prepare for my student application	study
+My course ends this summer and I want to ask about the graduate route	study
+Can my dependant remain with me while I complete my PhD	study
+I missed classes because of illness and want to know whether this affects my student status	study
+I am applying from overseas for a university course beginning in September	study
+My university changed my course dates after my student permission was granted	study
+Can I work part time while enrolled on my postgraduate programme	study
+I need advice about returning to the UK after interrupting my studies	study
+The course title on my CAS is incorrect and the university is preparing a replacement	study
+I am starting a research degree and need guidance before making my student application	study
+My programme now includes a placement year and I need to update my student record	study
+I have a job offer from a licensed sponsor and need to apply for permission to work	work
+My employer has issued a certificate of sponsorship for a skilled role	work
+Can I change employer while I am on a sponsored work route	work
+I am on the graduate route and have now found a permanent job	work
+My sponsored salary has changed and I want to know whether I must report it	work
+Can my new company take over sponsorship from my current employer	work
+I want to extend my work permission with the same organisation	work
+My job title changed but my employer and duties are mostly the same	work
+I have been offered a health sector role and need guidance on the work application	work
+My employment ends next month and I need to understand my options	work
+Can I start a second job while holding sponsored work permission	work
+My sponsor licence number is missing from the employment documents	work
+A technology company wants to sponsor me for a data analyst position	work
+I have completed my doctorate and want to move into a sponsored job	work
+My employer is restructuring and I need to know whether my work record must be updated	work
+I want my husband to join me in the UK as my partner	family
+Can I apply to remain with my British spouse	family
+I need information about bringing my child to live with me	family
+My partner visa expires soon and we are still living together	family
+Can my wife apply as my dependant while I work in the UK	family
+I am caring for a parent in the UK and need to ask about family options	family
+What relationship evidence should we provide for a partner application	family
+My child was born in the UK and I need advice about their immigration position	family
+I want to extend permission as the parent of a child living here	family
+My marriage took place overseas and I want to join my spouse in Britain	family
+Can my dependant partner work after joining me	family
+We separated recently and I need to understand how this affects my family permission	family
+I plan to marry my partner in the UK and want information about the family route	family
+My dependent child will turn eighteen soon and I need advice about our application	family
+We are renewing our partner application and have moved to a new shared address	family
+I would like to visit the UK for two weeks as a tourist	visit
+My parents want to attend my graduation ceremony	visit
+I need to travel to London for a short business meeting	visit
+Can my friend provide an invitation letter for my holiday visit	visit
+I plan to stay with relatives for one month and then return home	visit
+I want to visit several universities before choosing a course	visit
+Can I attend a conference in the UK as a visitor	visit
+My six month visit permission ends soon and my flight was cancelled	visit
+I am coming for a family wedding and need to know what documents to provide	visit
+I want to receive private medical treatment during a short stay	visit
+Can I undertake a brief training course while visiting Britain	visit
+My company is sending me to meet a client for three days	visit
+I hope to spend Christmas with my sister and return home in January	visit
+I have been invited to present at a university event without taking employment	visit
+I will change flights at a UK airport and want to ask about transit requirements	visit
+I cannot access my digital immigration status because the online account shows an error	other
+My passport was replaced and I need to update my account details	other
+I want information about applying for British citizenship	other
+How can I prove my status to a landlord using the online service	other
+I have changed my name and need to update my personal records	other
+I want to ask about settlement after living in the UK for several years	other
+My biometric card contains an incorrect date of birth	other
+I need a copy of a previous immigration decision letter	other
+The online right to work code is not being accepted	other
+I want to report a change of address	other
+I have a general question about administrative review after a refusal	other
+My eVisa account is linked to an email address I no longer use	other
+My physical document has expired and I am having difficulty viewing my eVisa	other
+I need information about the referees required for a citizenship application	other
+My nationality is recorded incorrectly in my online immigration account	other

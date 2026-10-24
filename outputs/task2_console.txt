@@ -1,0 +1,182 @@
+TASK 2A — PROVIDED EXAMPLE: CORRECTED FUNCTIONS
+Selection: [0, 1, 3, 4]
+
+TASK 2B — COMPLETE EXECUTION TRACE: PROVIDED EXAMPLE
+
+Current available_from: 0
+  Compatible booking 0: start=1, finish=2
+  Finish comparison: booking 0 finishes at 2; current best finish=None, index=-1
+  Updated earliest finish: booking 0 (2)
+  Compatible booking 1: start=3, finish=4
+  Finish comparison: booking 1 finishes at 4; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 2: start=0, finish=6
+  Finish comparison: booking 2 finishes at 6; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 3: start=5, finish=7
+  Finish comparison: booking 3 finishes at 7; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 4: start=8, finish=9
+  Finish comparison: booking 4 finishes at 9; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 5: start=5, finish=9
+  Finish comparison: booking 5 finishes at 9; current best finish=2, index=0
+  Kept existing booking 0
+  Selected booking 0: [1, 2)
+  Advancing available_from from 0 to 2
+
+Current available_from: 2
+  Compatible booking 1: start=3, finish=4
+  Finish comparison: booking 1 finishes at 4; current best finish=None, index=-1
+  Updated earliest finish: booking 1 (4)
+  Compatible booking 3: start=5, finish=7
+  Finish comparison: booking 3 finishes at 7; current best finish=4, index=1
+  Kept existing booking 1
+  Compatible booking 4: start=8, finish=9
+  Finish comparison: booking 4 finishes at 9; current best finish=4, index=1
+  Kept existing booking 1
+  Compatible booking 5: start=5, finish=9
+  Finish comparison: booking 5 finishes at 9; current best finish=4, index=1
+  Kept existing booking 1
+  Selected booking 1: [3, 4)
+  Advancing available_from from 2 to 4
+
+Current available_from: 4
+  Compatible booking 3: start=5, finish=7
+  Finish comparison: booking 3 finishes at 7; current best finish=None, index=-1
+  Updated earliest finish: booking 3 (7)
+  Compatible booking 4: start=8, finish=9
+  Finish comparison: booking 4 finishes at 9; current best finish=7, index=3
+  Kept existing booking 3
+  Compatible booking 5: start=5, finish=9
+  Finish comparison: booking 5 finishes at 9; current best finish=7, index=3
+  Kept existing booking 3
+  Selected booking 3: [5, 7)
+  Advancing available_from from 4 to 7
+
+Current available_from: 7
+  Compatible booking 4: start=8, finish=9
+  Finish comparison: booking 4 finishes at 9; current best finish=None, index=-1
+  Updated earliest finish: booking 4 (9)
+  Selected booking 4: [8, 9)
+  Advancing available_from from 7 to 9
+
+Current available_from: 9
+  No compatible bookings remain (index -1).
+
+Final selected order: [0, 1, 3, 4]
+
+TASK 2B — COMPLETE EXECUTION TRACE: OWN EXAMPLE WITH TIE
+
+Current available_from: 0
+  Compatible booking 0: start=0, finish=2
+  Finish comparison: booking 0 finishes at 2; current best finish=None, index=-1
+  Updated earliest finish: booking 0 (2)
+  Compatible booking 1: start=1, finish=4
+  Finish comparison: booking 1 finishes at 4; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 2: start=3, finish=5
+  Finish comparison: booking 2 finishes at 5; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 3: start=3, finish=5
+  Finish comparison: booking 3 finishes at 5; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 4: start=5, finish=7
+  Finish comparison: booking 4 finishes at 7; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 5: start=5, finish=8
+  Finish comparison: booking 5 finishes at 8; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 6: start=7, finish=9
+  Finish comparison: booking 6 finishes at 9; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 7: start=8, finish=10
+  Finish comparison: booking 7 finishes at 10; current best finish=2, index=0
+  Kept existing booking 0
+  Compatible booking 8: start=9, finish=11
+  Finish comparison: booking 8 finishes at 11; current best finish=2, index=0
+  Kept existing booking 0
+  Selected booking 0: [0, 2)
+  Advancing available_from from 0 to 2
+
+Current available_from: 2
+  Compatible booking 2: start=3, finish=5
+  Finish comparison: booking 2 finishes at 5; current best finish=None, index=-1
+  Updated earliest finish: booking 2 (5)
+  Compatible booking 3: start=3, finish=5
+  Finish comparison: booking 3 finishes at 5; current best finish=5, index=2
+  Kept existing booking 2
+  Compatible booking 4: start=5, finish=7
+  Finish comparison: booking 4 finishes at 7; current best finish=5, index=2
+  Kept existing booking 2
+  Compatible booking 5: start=5, finish=8
+  Finish comparison: booking 5 finishes at 8; current best finish=5, index=2
+  Kept existing booking 2
+  Compatible booking 6: start=7, finish=9
+  Finish comparison: booking 6 finishes at 9; current best finish=5, index=2
+  Kept existing booking 2
+  Compatible booking 7: start=8, finish=10
+  Finish comparison: booking 7 finishes at 10; current best finish=5, index=2
+  Kept existing booking 2
+  Compatible booking 8: start=9, finish=11
+  Finish comparison: booking 8 finishes at 11; current best finish=5, index=2
+  Kept existing booking 2
+  Selected booking 2: [3, 5)
+  Advancing available_from from 2 to 5
+
+Current available_from: 5
+  Compatible booking 4: start=5, finish=7
+  Finish comparison: booking 4 finishes at 7; current best finish=None, index=-1
+  Updated earliest finish: booking 4 (7)
+  Compatible booking 5: start=5, finish=8
+  Finish comparison: booking 5 finishes at 8; current best finish=7, index=4
+  Kept existing booking 4
+  Compatible booking 6: start=7, finish=9
+  Finish comparison: booking 6 finishes at 9; current best finish=7, index=4
+  Kept existing booking 4
+  Compatible booking 7: start=8, finish=10
+  Finish comparison: booking 7 finishes at 10; current best finish=7, index=4
+  Kept existing booking 4
+  Compatible booking 8: start=9, finish=11
+  Finish comparison: booking 8 finishes at 11; current best finish=7, index=4
+  Kept existing booking 4
+  Selected booking 4: [5, 7)
+  Advancing available_from from 5 to 7
+
+Current available_from: 7
+  Compatible booking 6: start=7, finish=9
+  Finish comparison: booking 6 finishes at 9; current best finish=None, index=-1
+  Updated earliest finish: booking 6 (9)
+  Compatible booking 7: start=8, finish=10
+  Finish comparison: booking 7 finishes at 10; current best finish=9, index=6
+  Kept existing booking 6
+  Compatible booking 8: start=9, finish=11
+  Finish comparison: booking 8 finishes at 11; current best finish=9, index=6
+  Kept existing booking 6
+  Selected booking 6: [7, 9)
+  Advancing available_from from 7 to 9
+
+Current available_from: 9
+  Compatible booking 8: start=9, finish=11
+  Finish comparison: booking 8 finishes at 11; current best finish=None, index=-1
+  Updated earliest finish: booking 8 (11)
+  Selected booking 8: [9, 11)
+  Advancing available_from from 9 to 11
+
+Current available_from: 11
+  No compatible bookings remain (index -1).
+
+Final selected order: [0, 2, 4, 6, 8]
+
+TASK 2C — OPTIMISATION AND EVALUATION
+Provided starts: [1, 3, 0, 5, 8, 5]
+Provided finishes: [2, 4, 6, 7, 9, 9]
+Provided selected: [0, 1, 3, 4]
+Provided evaluated (valid, count, gaps, finish): (True, 4, [1, 1, 1, 1], 9)
+Own starts: [0, 1, 3, 3, 5, 5, 7, 8, 9]
+Own finishes: [2, 4, 5, 5, 7, 8, 9, 10, 11]
+Greedy order: [0, 2, 4, 6, 8]
+Greedy evaluation: (True, 5, [0, 1, 0, 0, 0], 11)
+Alternative order: [0, 3, 5, 8]
+Alternative evaluation: (True, 4, [0, 1, 0, 1], 11)
+Both schedules valid; alternative does not contain more bookings.

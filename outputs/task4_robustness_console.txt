@@ -1,0 +1,7 @@
+TASK 4: SPLIT-SENSITIVITY CHECK (10 REPEATED FIVE-FOLD PROTOCOLS)
+Seeds: (2, 7, 11, 19, 23, 42, 59, 73, 101, 2026)
+scikit-learn: accuracy mean 0.583, sd 0.032, range 0.533–0.653; macro-F1 mean 0.580, range 0.534–0.652
+NLTK: accuracy mean 0.557, sd 0.035, range 0.480–0.613; macro-F1 mean 0.546, range 0.465–0.600
+Scores are resampling sensitivity diagnostics on the SAME 75 messages;
+they must not be presented as independent observations or deployment estimates.
+Saved: outputs/task4_split_sensitivity.csv
