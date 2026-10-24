@@ -35,6 +35,4 @@ python3 -m unittest -v test_all_tasks
 
 `run_all.py` saves the latest results in `outputs/`; Task 4 regenerates the figures. All evaluation procedures train exclusively on the training partitions of the dataset.
 
-## Scope
 
-The text classifiers are experimental **enquiry-routing aids**, not legal-advice systems. The limited dataset and observed errors mean staff review is essential. The final university submission must be a **single Word/PDF report** containing relevant code and output, not this project archive.
